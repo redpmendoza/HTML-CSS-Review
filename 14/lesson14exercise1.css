@@ -1,0 +1,29 @@
+body{
+    height: 3000px;
+}
+
+.div-a{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+}
+
+.div-b{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    background: green;
+}
+
+.div-c{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+}

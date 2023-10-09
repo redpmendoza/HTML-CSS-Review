@@ -1,0 +1,52 @@
+div{
+    font-family: Arial;
+}
+
+.side-bar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icons-img{
+    flex: 1;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    flex-direction: column;
+}
+
+.acc-icon{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin: 8px;
+}
+
+.infos-box{
+    flex: 4;
+    background-color: rgb(55, 55,55);
+    display: flex;
+    flex-direction: column;
+}
+
+.folder-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.folder-name, folder-add{
+    color: white;
+}
+
+.channel-name{
+    margin: 5px;
+    color: gray;
+}

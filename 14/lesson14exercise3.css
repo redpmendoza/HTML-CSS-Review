@@ -1,0 +1,62 @@
+body{
+    height: 3000px;
+}
+
+div, button{
+    font-family: Arial;
+}
+
+.request-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
+
+.acc-img{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-right: 8px;
+}
+
+.acc-name{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-add{
+    color: white;
+    background-color: rgb(60, 78, 212);
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+.btn-mess{
+    color: black;
+    background-color: rgb(209, 206, 206);
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    width: 80px;
+}
