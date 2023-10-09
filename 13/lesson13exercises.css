@@ -1,0 +1,192 @@
+.div-a{
+    display: flex;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.col-a-a{
+    background-color: lightpink;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-a{
+    color: white;
+    background-color: black;
+    width: 40px;
+}
+
+.col-a-b{
+    background-color: lightblue;
+    width: 300px;
+}
+
+.div-b{
+    display: flex;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.col-b-a{
+    background-color: lightpink;
+    width: 100px;
+}
+
+.col-b-b{
+    background-color: lightblue;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cont-b{
+    color: white;
+    background-color: black;
+    width: 40px;
+    display: inline-block;
+}
+
+.div-gmail{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 4px rgba(192, 192, 192, 3);
+    border-radius: 3px;
+    width: 335px;
+    padding: 5px;
+}
+
+.gmail-title{
+    color: gray;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.gmail-message{
+    display: flex;
+    flex-direction: row;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+
+.img-icon{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 60px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.acc-message{
+    display: flex;
+    flex-direction: column;
+}
+
+.message-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title-message{
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.time-message{  
+    font-family: Arial;
+    color: gray;
+    font-size: 12px;
+}
+
+.message-sub{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.message-cont{
+    font-family: Arial;
+    color: gray;
+    font-size: 13px;
+}
+
+.div-twitter{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 400px;
+}
+
+.user-icon{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.info-tweet{
+    display: flex;
+    direction: column;
+    display: inline-block;
+}
+
+.twt-name{
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.twt-uname{
+    font-weight: 100;
+    color: gray;
+}
+
+.twt-cont{
+    font-family: Arial;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.media-tweet{
+    display: flex;
+    flex-direction: row;
+    width: 315px;
+    align-items: center;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 10px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.media-pic{
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(192, 192, 192);
+    margin-right: 20px;
+}
+
+.media-info{
+    flex: 4;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.site-name{
+    font-family: Arial;
+    color: gray;
+    margin-bottom: 3px;
+}
+
+.site-title{
+    font-family: Arial;
+    margin-bottom: 3px;
+}
